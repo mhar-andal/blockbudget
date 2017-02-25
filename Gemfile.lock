@@ -1,0 +1,44 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.0.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    builder (3.2.3)
+    concurrent-ruby (1.0.4)
+    ethereum (0.5.2)
+      activesupport
+      sha3-pure-ruby (= 0.1.1)
+    i18n (0.8.1)
+    jwt (1.5.6)
+    minitest (5.10.1)
+    multi_json (1.12.1)
+    rack (1.6.5)
+    rack-protection (1.5.3)
+      rack
+    sha3-pure-ruby (0.1.1)
+    sinatra (1.4.8)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    thread_safe (0.3.6)
+    tilt (2.0.6)
+    twilio-ruby (4.13.0)
+      builder (>= 2.1.2)
+      jwt (~> 1.0)
+      multi_json (>= 1.3.0)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  ethereum
+  sinatra
+  twilio-ruby
+
+BUNDLED WITH
+   1.13.7
