@@ -8,3 +8,5 @@ end
 gem 'sinatra'
 gem 'twilio-ruby'
 gem 'ethereum'
+gem 'rack'
+gem 'restart'
