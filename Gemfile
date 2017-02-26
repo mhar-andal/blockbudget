@@ -9,4 +9,8 @@ gem 'sinatra'
 gem 'twilio-ruby'
 gem 'rack'
 gem 'restart'
+<<<<<<< HEAD
 gem 'bitpay-sdk', :require => 'bitpay_sdk'
+=======
+gem 'jeth'
+>>>>>>> 8cacf4cede92908bc1e7c91b7a7517547408b0b0
